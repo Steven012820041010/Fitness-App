@@ -1,0 +1,32 @@
+.journalCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.journalCard .journal-container {
+    width: 100%;
+    height: 160px;
+    background: linear-gradient(to bottom, #1cb7d2 30%, #70e4f5 60%);
+    border-radius: 1em;
+    display: flex;
+    gap: 15px;
+    padding-top: 15px;
+    cursor: pointer;
+}
+
+.journalCard .journal-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    width: 40px;
+    height: 40px;
+    background-color: #0792B1;
+    border-radius: 8px;
+}
+
+.journalCard p {
+    color: white;
+    font-size: 16px;
+}
